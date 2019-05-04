@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/search/main",
+    "pages/firstView/main",
+    "pages/bookShop/main",
+    "pages/detail/main",
+    "pages/bookList/main",
+    "pages/personal/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#02a774"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/bookShop/main",
+        "text": "Books",
+        "color": "#02a774",
+        "iconPath": "/static/imgs/book.png",
+        "selectedIconPath": "/static/imgs/book-active.png"
+      },
+      {
+        "pagePath": "pages/search/main",
+        "text": "Search",
+        "color": "#02a774",
+        "iconPath": "/static/imgs/todo.png",
+        "selectedIconPath": "/static/imgs/todo-active.png"
+
+      },
+      {
+        "pagePath": "pages/personal/main",
+        "text": "Personal",
+        "color": "#02a774",
+        "iconPath": "/static/imgs/me.png",
+        "selectedIconPath": "/static/imgs/me-active.png"
+
+
+      }
+    ]
+  }
+}
